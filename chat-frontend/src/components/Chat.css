@@ -1,0 +1,56 @@
+.chat-app{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.receiver{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.receiver-id{
+    background-color: white;
+    color:green;
+    width:150px;
+}
+.receiver-id::placeholder{
+    color:green;
+    font-weight: 900;
+}
+.message-btn{
+    width:120px;
+}
+.messager::placeholder{
+    color:green;
+}
+
+.send-btn{
+    width:130px;
+}
+
+.imp-msg{
+    font-size: 20px;
+    font-weight: 900;
+    color:rgb(0, 67, 0);
+}
+
+.chat-messages{
+    color:rgb(2, 48, 2);
+}
+
+.span-msg{
+    color:rgb(2, 100, 2);
+    font-weight: 600;
+}
